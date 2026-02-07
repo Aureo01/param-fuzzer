@@ -40,30 +40,16 @@ One parameter at a time. Clean. Predictable. Ready to pipe into your favorite fu
 
 ## Usage
 
-Single URL:
+·Single URL:
 
 ```bash
 python3 paramfuzz_prep.py "https://example.com/api/user?id=123&role=user"
 
+·From a file:
 
-From a file:
-
-- python3 paramfuzz_prep.py -w urls.txt
+python3 paramfuzz_prep.py -w urls.txt
 
 
 Specify output file:
 
-- python3 paramfuzz_prep.py -w urls.txt -o fuzzed_urls.txt
-
-
-Perfect for chaining with:
-
-ffuf
-
-wfuzz
-
-nuclei
-
-custom scripts
-
-or whatever your workflow looks like
+python3 paramfuzz_prep.py -w urls.txt -o fuzzed_urls.txt
