@@ -1,4 +1,4 @@
-# ParamFuzz Prep
+# param-fuzzer
 
 A tiny utility to **prepare URLs for fuzzing** by replacing one parameter at a time with `FUZZ`.
 
